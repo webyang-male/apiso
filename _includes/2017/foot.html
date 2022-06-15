@@ -1,0 +1,23 @@
+<!-- critical js -->
+<script>{% include 2017/critical/critical.js %}</script>
+<script src='{{base}}/assets/packed/vendor.js?t={{ timestamp }}'></script>
+<script src='{{base}}/assets/packed/app.js?t={{ timestamp }}'></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+    // 给图片添加链接
+    $(document).ready(function() {
+        $("p img").each(function() {
+            var strA = "<a data-fancybox href='" + this.src + "'></a>";
+            $(this).wrapAll(strA);
+        });
+    });
+
+    // fancybox
+    $('[data-fancybox]').fancybox({
+	    protect: true,
+        openEffect: 'elastic',
+        closeEffect: 'elastic'
+    });
+</script>
+{% for lang in page.prism_languages %}<script src='https://cdn.jsdelivr.net/npm/prismjs@1.6.0/components/prism-{{lang}}.min.js'></script>{% endfor %}
