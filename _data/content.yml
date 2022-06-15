@@ -1,0 +1,51 @@
+home:
+  title:
+  tagline: |
+
+top_nav:
+  title: 🐝 &nbsp 蜜蜂速查
+  edit: 编辑本页
+  edit_on_github:  github
+
+sheet:
+  suffix: CheatSheets
+
+social_list:
+  default_description: "Personal Wiki"
+  description: "The ultimate cheatsheet for TITLE."
+  # facebook_share: Share on Facebook
+  # twitter_share: Share on Twitter
+  github: Star on GitHub
+  github_url: https://github.com/Uzizkp/cheatsheets
+  
+
+related_posts_callout:
+  description: Collected SIZE Cheatsheet, by developers for developers.
+  link: Home
+
+related_posts_group:
+  top: Top cheatsheets
+  other: Other cheatsheets
+  category: Other CATEGORY cheatsheets
+
+search_form:
+  default_placeholder: Search SIZE+ cheatsheets
+  home_placeholder: Search...
+  prefix: 速查
+
+comments_area:
+  suffix: for this cheatsheet.
+  link: "Write yours!"
+
+not_found:
+  title: Not found
+  description: Sorry, we don't have nothing for this yet. Try searching!
+  home: Back to home
+
+announcement:
+  id: 2020-04-23-blog
+  title: |
+    联系我 ❤️
+  body: |
+    你好，如果有任何问题可以📧[EMAIL]('mailto:z.kp@outlook.com')或者前往我的主页🌲[途中的树](https://zkpeace.com)找到更多关于我的信息。 <br/>
+    Originally designed by <a href='https://ricostacruz.com'>@rstacruz</a> modified by <a href='https://zkpeace.com'>@kp</a> 

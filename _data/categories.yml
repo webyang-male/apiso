@@ -1,0 +1,13 @@
+enabled: true
+names:
+  - Apps
+  # - Navigation
+  # - Git
+  - HTML
+  # - Java & JVM
+  - JavaScript
+  - Markup
+  - Python
+  - Databases
+  - Life
+  - Code management
