@@ -1,6 +1,6 @@
 info=$1
 if ["$info" = ""];
-then info=":pencil: 初次提交"
+then info=":pencil: cdn assets update"
 fi
 git add -A
 git commit -m "$info"
